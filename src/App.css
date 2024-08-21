@@ -24,7 +24,7 @@ textarea {
 }
 
 #editor {
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #preview {
@@ -35,11 +35,12 @@ textarea {
   background-color: #fff;
   color: #333;
   font-size: 1rem;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #333;
 }
 
@@ -90,7 +91,8 @@ strong {
 }
 
 @media (max-width: 768px) {
-  textarea, #preview {
+  textarea,
+  #preview {
     width: 100%;
   }
 }
