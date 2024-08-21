@@ -29,14 +29,14 @@ function App() {
   `);
 
   marked.setOptions({
-    breaks: true
-  })
+    breaks: true,
+  });
 
   return (
     <div className="App">
-      <textarea id="editor" onChange={(event) => {setText(event.target.value);}}
-      value={text}
-      ></textarea>
+      <textarea id="editor"
+      onChange={(event) => { setText(event.target.value); }}
+      value={text}></textarea>
       <div id="preview" dangerouslySetInnerHTML={{
         __html: marked(text),
       }}></div>
