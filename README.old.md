@@ -24,6 +24,8 @@ return (
 ## Demo 📸
 life demo link []
 
+![screenshot](./assets/capture_240821_195403.png)
+
 ## Technologies Used 🛠️
 - HTML
 - CSS
