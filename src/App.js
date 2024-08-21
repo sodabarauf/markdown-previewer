@@ -34,14 +34,16 @@ function App() {
 
   return (
     <div className="App">
-      <textarea id="editor"
-      onChange={(event) => { setText(event.target.value); }}
-      value={text}></textarea>
-      <div id="preview" dangerouslySetInnerHTML={{
-        __html: marked(text),
-      }}></div>
+      <textarea
+        id="editor"
+        onChange={(event) => setText(event.target.value)}
+        value={text}
+      />
+      <div
+        id="preview"
+        dangerouslySetInnerHTML={{ __html: marked(text) }}
+      />
     </div>
   );
 }
-
 export default App;
